@@ -1,0 +1,34 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [40.0510972, -77.5203395]
+    },
+    "properties": {
+        "name": "University Grille",
+        "address": "32 E King St, Shippensburg, PA 17257",
+        "menu": [
+            {
+                "name": "10 Wings",
+                "price": 1.0
+            },
+            {
+                "name": "20 Wings",
+                "price": 0.75
+            }
+        ],
+        "flavors": [
+            { "name": "BBQ", "heat": 3 },
+            { "name": "Honey Mustard", "heat": 1 },
+            { "name": "Hot", "heat": 6 },
+            { "name": "Asian", "heat": 2 }
+        ],
+        "deals": [
+            {
+                "name": "Wing Night",
+                "description": "42 cents per wing every Wednesday",
+                "rrule": "FREQ=WEEKLY;BYDAY=SU,WE;INTERVAL=1"
+            }
+        ]
+    }
+}
