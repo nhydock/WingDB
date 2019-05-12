@@ -1,0 +1,23 @@
+{
+  "name": "wing-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "refresh": "node cmd/upload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhydock/wing-db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhydock/wing-db/issues"
+  },
+  "homepage": "https://github.com/nhydock/wing-db#readme",
+  "dependencies": {
+    "ioredis": "^4.9.3",
+    "lodash": "^4.17.11"
+  }
+}
