@@ -9,7 +9,8 @@ if (!process.env.REDIS_URL) {
 const client = new Redis(process.env.REDIS_URL);
 
 async function batchUpload(batch) {
-    const cmd = ['wings'];
+    const geoadd = ['wings'];
+    const mset = []
     for (const file of batch) {
         let member = fs.readFileSync(`${__dirname}/../locations/${file}`, 'utf8');
         member = JSON.parse(member);
@@ -18,10 +19,14 @@ async function batchUpload(batch) {
                 coordinates: [lat, lng]
             }
         } = member;
-        cmd.push(lng, lat, JSON.stringify(member));
+        geoadd.push(lng, lat, file);
+        mset.push(file, JSON.stringify(member));
     }
-    console.log(cmd);
-    await client.geoadd(cmd);
+    console.log(geoadd);
+    await client.pipeline()
+        .geoadd(geoadd)
+        .mset(mset)
+        .exec();
     console.log('batch uploaded');
 }
 
