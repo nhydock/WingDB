@@ -1,0 +1,79 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [39.9489971, -75.1612127]
+	},
+	"properties": {
+		"name": "Chix & Wings",
+		"address": "138 S 11th St, Philadelphia, PA 19107",
+		"menu": [{
+				"$id": "2x6",
+				"name": "6 Famous Double Fried Wings",
+				"price": 7.59
+			},
+			{
+				"$id": "2x10",
+				"name": "10 Famous Double Fried Wings",
+				"price": 10.59
+			},
+			{
+				"$id": "1x10",
+				"name": "10 Regular Wings",
+				"price": 9.89
+			}
+		],
+		"flavors": [{
+				"name": "Spicy Garlic",
+				"heat": 6,
+				"available": ["2x6", "2x10"]
+			},
+			{
+				"name": "Sweet Chili",
+				"heat": 4,
+				"available": ["2x6", "2x10", "1x10"]
+			},
+			{
+				"name": "Soy Garlic",
+				"heat": 1,
+				"available": ["2x6", "2x10"]
+			},
+			{
+				"name": "Honey BBQ",
+				"heat": 2,
+				"available": ["2x6", "2x10", "1x10"]
+			},
+			{
+				"name": "Buffalo Mild",
+				"heat": 3,
+				"available": ["1x10"]
+			},
+			{
+				"name": "Buffalo Spicy",
+				"heat": 7,
+				"available": ["1x10"]
+			},
+			{
+				"name": "Spicy Garlic",
+				"heat": 5,
+				"available": ["1x10"]
+			},
+			{
+				"name": "Jamaican Jerk",
+				"heat": 2,
+				"available": ["1x10"]
+			},
+			{
+				"name": "Cajun Spicy",
+				"heat": 5,
+				"available": ["1x10"]
+			},
+			{
+				"name": "Garlic Parmesan",
+				"heat": 1,
+				"available": ["1x10"]
+			}
+		],
+		"deals": []
+	}
+}
