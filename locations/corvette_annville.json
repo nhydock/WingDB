@@ -1,0 +1,134 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [40.3297957, -76.5155177]
+	},
+	"properties": {
+		"name": "Corvette Grille",
+		"address": "202 W Main St, Annville, PA 17003",
+		"menu": [{
+				"name": "6 Regular/Boneless",
+				"price": 5.99
+			},
+			{
+				"name": "12 Regular/Boneless",
+				"price": 8.99
+			},
+			{
+				"name": "18 Regular/Boneless",
+				"price": 8.99
+			},
+			{
+				"name": "24 Regular/Boneless",
+				"price": 8.99
+			},
+			{
+				"name": "36 Regular/Boneless",
+				"price": 8.99
+			}
+		],
+		"flavors": [{
+				"name": "Mild",
+				"heat": 3
+			},
+			{
+				"name": "Hot",
+				"heat": 5
+			},
+			{
+				"name": "Crazy Hot",
+				"heat": 8
+			},
+			{
+				"name": "Nuclear",
+				"heat": 9
+			},
+			{
+				"name": "Suicide",
+				"heat": 10
+			},
+			{
+				"name": "BBQ",
+				"heat": 3
+			},
+			{
+				"name": "Honey BBQ",
+				"heat": 2
+			},
+			{
+				"name": "Cool BBQ",
+				"heat": 2
+			},
+			{
+				"name": "Spicy BBQ",
+				"heat": 4
+			},
+			{
+				"name": "Honey Mustard",
+				"heat": 1
+			},
+			{
+				"name": "Teriyaki",
+				"heat": 1
+			},
+			{
+				"name": "Caesar",
+				"heat": 1
+			},
+			{
+				"name": "Peppercorn Parm",
+				"heat": 2
+			},
+			{
+				"name": "Cajun Ranch",
+				"heat": 2
+			},
+			{
+				"name": "Old Bay (Dry)",
+				"heat": 1
+			},
+			{
+				"name": "Cajun (Dry)",
+				"heat": 3
+			},
+			{
+				"name": "Caribbean Jerk (Dry)",
+				"heat": 2
+			},
+			{
+				"name": "Garlic",
+				"heat": 1
+			},
+			{
+				"name": "Spicy Garlic",
+				"heat": 3
+			},
+			{
+				"name": "Garlic Ranch",
+				"heat": 1
+			},
+			{
+				"name": "Spicy Ranch",
+				"heat": 3
+			},
+			{
+				"name": "Spicy Blue Cheese",
+				"heat": 3
+			},
+			{
+				"name": "Balllin' (Garlic Parm Sweet and Spicy)",
+				"heat": 3
+			},
+			{
+				"name": "Bangin' (Spicy Garlic Cajun Ranch Parm)",
+				"heat": 5
+			},
+			{
+				"name": "Asian Cajun (Sriracha Hot Sauce Cajun Ranch)",
+				"heat": 6
+			}
+		],
+		"deals": []
+	}
+}
