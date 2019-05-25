@@ -1,0 +1,40 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [40.3651864, -74.9560714]
+	},
+	"properties": {
+		"name": "Triumph Brewing Company of New Hope",
+		"address": "400 Union Square Dr, New Hope, PA 18938",
+		"menu": [{
+				"$id": "boneless",
+				"name": "Buttermilk Bites",
+				"price": 10.00
+			},
+			{
+				"$id": "boned",
+				"name": "10 Regular Wings",
+				"price": 10
+			}
+		],
+		"flavors": [{
+				"name": "Buffalo",
+				"heat": 5
+			},
+			{
+				"name": "Honey Chipotle",
+				"heat": 5
+			},
+			{
+				"name": "BBQ",
+				"heat": 3
+			}
+		],
+		"deals": [{
+			"name": "Happy Hour",
+			"description": "Weekday happy hour from 4-6:30pm.  Discounts on appetizers",
+			"rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;INTERVAL=1"
+		}]
+	}
+}
