@@ -1,0 +1,44 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [40.3644479, -74.9515746]
+	},
+	"properties": {
+		"name": "The Dubliner on the Delaware",
+		"address": "34 N Main St, New Hope, PA 18938",
+		"menu": [{
+				"$id": "boneless",
+				"name": "Signature Boneless Wings",
+				"price": 10.00
+			},
+			{
+				"$id": "boned",
+				"name": "Signature Bone-in Wings",
+				"price": 13.00
+			}
+		],
+		"flavors": [{
+				"name": "Hot",
+				"heat": 6
+			},
+			{
+				"name": "Mild",
+				"heat": 5
+			},
+			{
+				"name": "Sweet Chili",
+				"heat": 4
+			},
+			{
+				"name": "The Dubliner’s Jameson Sticky Sauce",
+				"heat": 3
+			}
+		],
+		"deals": [{
+			"name": "Happy Hour",
+			"description": "4pm - 7pm, Bar-only.  $6 Food menu",
+			"rrule": "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH;INTERVAL=1"
+		}]
+	}
+}
