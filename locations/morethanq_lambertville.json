@@ -1,0 +1,25 @@
+{
+	"type": "Feature",
+	"geometry": {
+		"type": "Point",
+		"coordinates": [40.3665284, -74.9451608]
+	},
+	"properties": {
+		"name": "More Than Q",
+		"address": "13 Klines Ct, Lambertville, NJ 08530",
+		"menu": [{
+			"name": "10 Wings",
+			"price": 12.00
+		}],
+		"flavors": [{
+				"name": "Carolina BBQ",
+				"heat": 5
+			},
+			{
+				"name": "South Carolina Mustard BBQ",
+				"heat": 3
+			}
+		],
+		"deals": []
+	}
+}
