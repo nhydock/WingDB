@@ -4,7 +4,7 @@ Contents of this repository act as the crowd-source collection of information pe
 
 ## How do I search the wing-db?
 
-When any commit gets pushed to master, a redis database in heroku is updated through a git integration.  An API is available which performs geospatial searches of the data to find restaurants near you that have wings.  Additional information available within the geojson as part of the specification can be filtered by clients who which to implement additional functionality.  
+When any commit gets pushed to master, a redis database in heroku is updated through a git integration.  An API is available which performs geospatial searches of the data to find restaurants near you that have wings.  Additional information available within the geojson as part of the specification can be filtered by clients who may to implement additional functionality.
 
 The reference API currently is available at http://wing-knight.herokuapp.com and has the following routes
 
@@ -28,3 +28,5 @@ Chicken wings, pork wings, vegan wings, we don't discriminate here and welcome a
 Data will be peer reviewed using git pull requests as a way to insure our data is accurate(ish) before merging.
 
 If you're still up to supplying information, you can read up on [How to structure a location](/docs/structure-of-a-location.md)
+
+Initial data seeded by [@nhydock](https://github.com/nhydock) as a diary of places he's had wings.
